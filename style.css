@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+  height: 70%;
+  margin: 20px;
+}
+#logo img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.text{
+    margin: 30px;
+    font-size: larger;
+    
+}
+.text:hover{
+    color:white;
+    text-decoration: underline;
+}
+#login{
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    height: 40%;
+    width:5%;
+    background-color: #0B4E9B;
+    color:white
+   
+}
+#login:hover{
+    color: Black;
+    background-color: lightblue;
+    
+}
+#cover{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+#preheader{
+    display: flex;
+    align-items:center ;
+    height: 15%;
+    width:100%;
+    background-color: #0B4E9B;
+    z-index: 5;
+}
+#heading{
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+    margin-left: 20px ;
+}
+#logo{
+    height:80%;
+    width:5%;
+    background-color: azure;
+}
+#logo img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+
+}
+#header{
+    height: 15%;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    background-color: green;
+    align-items: center;
+    justify-content: space-around;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#page1 img{
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+}  
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+#fakeheader{
+    height: 30%;
+    width: 100%;
+}
+#slogan{
+    color: white;
+    font-size:150px;
+    position: absolute;
+    z-index:4;
+    margin:20px;
+    width:50%;
+    height: 90%;
+}
+#content{
+    position: absolute;
+    width:50%;
+    height: 80%;
+    right:4%;
+    color:white;
+    font-size: x-large;
+    margin-top:5%;
+}
+#content2{
+    margin: 20px;
+    height: 100%;
+    width:50%;
+    font-size: large;
+}
+#page2 img{
+    height: 90%;
+    width:50%;
+    margin:20px;
+}
